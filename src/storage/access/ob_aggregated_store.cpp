@@ -1,3 +1,4 @@
+
 /**
  * Copyright (c) 2021 OceanBase
  * OceanBase CE is licensed under Mulan PubL v2.
@@ -463,6 +464,7 @@ int ObAggregatedStore::fill_count(const int64_t row_count)
     }
   }
   return ret;
+}
 
 int ObAggregatedStore::collect_aggregated_row(blocksstable::ObDatumRow *&row)
 {
